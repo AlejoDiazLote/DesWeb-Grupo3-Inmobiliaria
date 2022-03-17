@@ -1,0 +1,9 @@
+package com.Group3.realState.properties.address.domain.valueObjects;
+
+import com.Group3.realState.shared.domain.agregate.stringValueObject;
+
+public class addressAdditionalInfo extends stringValueObject {
+    public addressAdditionalInfo(String value) {
+        super(value);
+    }
+}
